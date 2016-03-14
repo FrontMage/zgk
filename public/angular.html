@@ -1,0 +1,28 @@
+<!doctype html>
+<html ng-app="myApp">
+    <head>
+        <script src="js/angular.min.js"></script>
+        <script>
+            var app = angular.module('myApp', []);
+                app.controller('PhoneListCtrl', function($scope, $http) {
+                    $scope.phones = [
+                        {"name": "Nexus S",
+                        "snippet": "Fast just got faster with Nexus S."},
+                        {"name": "Motorola XOOM™ with Wi-Fi",
+                        "snippet": "The Next, Next Generation tablet."},
+                        {"name": "MOTOROLA XOOM™",
+                        "snippet": "The Next, Next Generation tablet."}
+                    ];
+                });
+    </script>
+    </head>
+    <body ng-controller="PhoneListCtrl">
+      <ul>
+        <li ng-repeat="phone in phones">
+        {{phone.name}}
+        <p>{{phone.snippet}}</p>
+        </li>
+    </ul>
+    
+    </body>
+</html>

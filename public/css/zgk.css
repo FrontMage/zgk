@@ -1,0 +1,18 @@
+/*公共样式和大模块样式*/
+*{margin:0;padding:0;font-family: "微软雅黑";font-size: 14px;}
+.clear{clear:both;}
+.float-left{float:left;}
+#wrapper{width:970px;height:800px;margin:0 auto;}
+#header{height:80px;background-color:darkcyan;margin:0 auto;margin-top: 30px;}
+#content{width:100%;height:70%;margin-top: 23px;}
+#content-left{width:425px;height:400px;border-right: 2px solid black;}
+#content-right{height:400px;width:442px;position:relative;}
+
+/*左侧table微调*/
+#data-table{margin-top:25px;}
+
+/*右侧content样式*/
+#content-right h1{font-size: 24px;width:136px;margin:0 auto;}
+#content-right p{margin-top:38px;margin-left: 28px;}
+#content-right input{margin-top:12px;margin-left: 29px;width:200px;}
+#content-right button{position:absolute;left:333px;top:230px;width:168px;height:87px;}
