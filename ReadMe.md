@@ -33,5 +33,5 @@ xampp可以一键启动数据库，管理端口，并且自带phpMyAdmin可以�
 目前删除操作即使数据库未能删除成功，有时控制台也会显示删除成功//to do---->delete router bug
 添加用户的表单有验证，但是行内编辑没有//to do----->edit in row should be valid
 
-#请遵守GPL协议，任何问题反馈请发邮件至xbgxwh@163.com或xbgxwh@outlook.com
-#Please follow GPL agreement, any questions please email xbgxwh@163.com or xbgxwh@outlook.com
+请遵守GPL协议，任何问题反馈请发邮件至xbgxwh@163.com或xbgxwh@outlook.com</br>
+Please follow GPL agreement, any questions please email xbgxwh@163.com or xbgxwh@outlook.com
